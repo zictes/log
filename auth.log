@@ -1,0 +1,59 @@
+May  8 22:05:01 stephen CRON[78193]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  8 22:05:01 stephen CRON[78193]: pam_unix(cron:session): session closed for user root
+May  8 22:15:01 stephen CRON[79254]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  8 22:15:02 stephen CRON[79254]: pam_unix(cron:session): session closed for user root
+May  8 22:17:02 stephen CRON[79413]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  8 22:17:02 stephen CRON[79413]: pam_unix(cron:session): session closed for user root
+May  8 22:25:01 stephen CRON[80034]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  8 22:25:01 stephen CRON[80034]: pam_unix(cron:session): session closed for user root
+May  8 22:35:01 stephen CRON[81996]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  8 22:35:01 stephen CRON[81996]: pam_unix(cron:session): session closed for user root
+May  8 22:45:01 stephen CRON[83066]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  8 22:45:01 stephen CRON[83066]: pam_unix(cron:session): session closed for user root
+May  8 22:47:07 stephen sudo:   locque : TTY=pts/2 ; PWD=/home/locque ; USER=root ; COMMAND=/usr/sbin/nvme smart-log /dev/nvme0
+May  8 22:47:07 stephen sudo: pam_unix(sudo:session): session opened for user root by locque(uid=1000)
+May  8 22:47:07 stephen sudo: pam_unix(sudo:session): session closed for user root
+May  8 22:47:07 stephen sudo:   locque : TTY=pts/2 ; PWD=/home/locque ; USER=root ; COMMAND=/usr/sbin/nvme smart-log /dev/nvme1
+May  8 22:47:07 stephen sudo: pam_unix(sudo:session): session opened for user root by locque(uid=1000)
+May  8 22:47:07 stephen sudo: pam_unix(sudo:session): session closed for user root
+May  8 22:47:12 stephen sudo:   locque : TTY=pts/2 ; PWD=/home/locque ; USER=root ; COMMAND=/usr/sbin/nvme smart-log /dev/nvme0
+May  8 22:47:12 stephen sudo: pam_unix(sudo:session): session opened for user root by locque(uid=1000)
+May  8 22:47:12 stephen sudo: pam_unix(sudo:session): session closed for user root
+May  8 22:47:12 stephen sudo:   locque : TTY=pts/2 ; PWD=/home/locque ; USER=root ; COMMAND=/usr/sbin/nvme smart-log /dev/nvme1
+May  8 22:47:12 stephen sudo: pam_unix(sudo:session): session opened for user root by locque(uid=1000)
+May  8 22:47:12 stephen sudo: pam_unix(sudo:session): session closed for user root
+May  8 22:55:01 stephen CRON[83863]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  8 22:55:01 stephen CRON[83863]: pam_unix(cron:session): session closed for user root
+May  8 23:05:01 stephen CRON[84582]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  8 23:05:01 stephen CRON[84582]: pam_unix(cron:session): session closed for user root
+May  8 23:15:01 stephen CRON[85367]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  8 23:15:01 stephen CRON[85367]: pam_unix(cron:session): session closed for user root
+May  8 23:17:01 stephen CRON[85531]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  8 23:17:01 stephen CRON[85531]: pam_unix(cron:session): session closed for user root
+May  8 23:25:01 stephen CRON[86451]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  8 23:25:01 stephen CRON[86451]: pam_unix(cron:session): session closed for user root
+May  8 23:35:01 stephen CRON[87219]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  8 23:35:01 stephen CRON[87219]: pam_unix(cron:session): session closed for user root
+May  9 01:39:01 stephen systemd-logind[1280]: New seat seat0.
+May  9 01:39:01 stephen systemd-logind[1280]: Watching system buttons on /dev/input/event1 (Power Button)
+May  9 01:39:01 stephen systemd-logind[1280]: Watching system buttons on /dev/input/event0 (Power Button)
+May  9 01:39:01 stephen sshd[1344]: Server listening on 0.0.0.0 port 22.
+May  9 01:39:01 stephen sshd[1344]: Server listening on :: port 22.
+May  9 01:41:21 stephen sshd[1514]: Accepted password for locque from 192.168.0.12 port 52536 ssh2
+May  9 01:41:21 stephen sshd[1514]: pam_unix(sshd:session): session opened for user locque by (uid=0)
+May  9 01:41:21 stephen systemd-logind[1280]: New session 1 of user locque.
+May  9 01:41:21 stephen systemd: pam_unix(systemd-user:session): session opened for user locque by (uid=0)
+May  9 01:45:01 stephen CRON[1637]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  9 01:45:01 stephen CRON[1637]: pam_unix(cron:session): session closed for user root
+May  9 01:53:33 stephen sshd[1614]: Received disconnect from 192.168.0.12 port 52536:11: disconnected by user
+May  9 01:53:33 stephen sshd[1614]: Disconnected from user locque 192.168.0.12 port 52536
+May  9 01:53:33 stephen sshd[1514]: pam_unix(sshd:session): session closed for user locque
+May  9 01:53:33 stephen systemd-logind[1280]: Session 1 logged out. Waiting for processes to exit.
+May  9 01:53:33 stephen systemd-logind[1280]: Removed session 1.
+May  9 01:54:14 stephen sshd[1646]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.12  user=root
+May  9 01:54:15 stephen sshd[1646]: Failed password for root from 192.168.0.12 port 52538 ssh2
+May  9 01:54:19 stephen sshd[1646]: Connection closed by authenticating user root 192.168.0.12 port 52538 [preauth]
+May  9 01:54:27 stephen sshd[1648]: Accepted password for locque from 192.168.0.12 port 52540 ssh2
+May  9 01:54:27 stephen sshd[1648]: pam_unix(sshd:session): session opened for user locque by (uid=0)
+May  9 01:54:27 stephen systemd-logind[1280]: New session 4 of user locque.
+May  9 01:54:27 stephen systemd: pam_unix(systemd-user:session): session opened for user locque by (uid=0)

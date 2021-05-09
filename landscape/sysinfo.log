@@ -1,0 +1,11 @@
+2021-05-07 22:50:38,223 ERROR    Network plugin raised an exception.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/sysinfo.py", line 99, in run
+    result = plugin.run()
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/network.py", line 36, in run
+    device_info = self._get_device_info()
+  File "/usr/lib/python3/dist-packages/landscape/lib/network.py", line 163, in get_active_device_info
+    speed, duplex = get_network_interface_speed(
+  File "/usr/lib/python3/dist-packages/landscape/lib/network.py", line 249, in get_network_interface_speed
+    res = status_cmd.tostring()
+AttributeError: 'array.array' object has no attribute 'tostring'

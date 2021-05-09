@@ -1,0 +1,90 @@
+Log started: 2021-05-07  22:45:19
+E: Can not write log (Is /dev/pts mounted?) - posix_openpt (19: No such device)
+(Reading database ... 74723 files and directories currently installed.)
+Preparing to unpack .../bind9-dnsutils_1%3a9.16.8-1ubuntu3.1_amd64.deb ...
+Unpacking bind9-dnsutils (1:9.16.8-1ubuntu3.1) over (1:9.16.8-1ubuntu3) ...
+Preparing to unpack .../bind9-libs_1%3a9.16.8-1ubuntu3.1_amd64.deb ...
+Unpacking bind9-libs:amd64 (1:9.16.8-1ubuntu3.1) over (1:9.16.8-1ubuntu3) ...
+Setting up bind9-libs:amd64 (1:9.16.8-1ubuntu3.1) ...
+Setting up bind9-dnsutils (1:9.16.8-1ubuntu3.1) ...
+Processing triggers for man-db (2.9.4-2) ...
+Processing triggers for libc-bin (2.33-0ubuntu5) ...
+
+Running kernel seems to be up-to-date.
+
+The processor microcode seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+Log ended: 2021-05-07  22:45:21
+
+Log started: 2021-05-07  22:45:22
+E: Can not write log (Is /dev/pts mounted?) - posix_openpt (19: No such device)
+(Reading database ... 74723 files and directories currently installed.)
+Preparing to unpack .../gcc-11-base_11.1.0-1ubuntu1~21.04_amd64.deb ...
+Unpacking gcc-11-base:amd64 (11.1.0-1ubuntu1~21.04) over (11-20210417-1ubuntu1) ...
+Setting up gcc-11-base:amd64 (11.1.0-1ubuntu1~21.04) ...
+(Reading database ... 74723 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_11.1.0-1ubuntu1~21.04_amd64.deb ...
+Unpacking libstdc++6:amd64 (11.1.0-1ubuntu1~21.04) over (11-20210417-1ubuntu1) ...
+Setting up libstdc++6:amd64 (11.1.0-1ubuntu1~21.04) ...
+(Reading database ... 74723 files and directories currently installed.)
+Preparing to unpack .../libgcc-s1_11.1.0-1ubuntu1~21.04_amd64.deb ...
+Unpacking libgcc-s1:amd64 (11.1.0-1ubuntu1~21.04) over (11-20210417-1ubuntu1) ...
+Setting up libgcc-s1:amd64 (11.1.0-1ubuntu1~21.04) ...
+Processing triggers for libc-bin (2.33-0ubuntu5) ...
+
+Running kernel seems to be up-to-date.
+
+The processor microcode seems to be up-to-date.
+
+Services to be restarted:
+ systemctl restart snap.subiquity.subiquity-server.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+Log ended: 2021-05-07  22:45:24
+
+Log started: 2021-05-07  22:45:24
+E: Can not write log (Is /dev/pts mounted?) - posix_openpt (19: No such device)
+(Reading database ... 74723 files and directories currently installed.)
+Preparing to unpack .../distro-info-data_0.46ubuntu2_all.deb ...
+Unpacking distro-info-data (0.46ubuntu2) over (0.46) ...
+Setting up distro-info-data (0.46ubuntu2) ...
+
+Running kernel seems to be up-to-date.
+
+The processor microcode seems to be up-to-date.
+
+Services to be restarted:
+ systemctl restart snap.subiquity.subiquity-server.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+Log ended: 2021-05-07  22:45:26
+
+Log started: 2021-05-07  22:45:26
+E: Can not write log (Is /dev/pts mounted?) - posix_openpt (19: No such device)
+(Reading database ... 74723 files and directories currently installed.)
+Preparing to unpack .../bind9-host_1%3a9.16.8-1ubuntu3.1_amd64.deb ...
+Unpacking bind9-host (1:9.16.8-1ubuntu3.1) over (1:9.16.8-1ubuntu3) ...
+Setting up bind9-host (1:9.16.8-1ubuntu3.1) ...
+Processing triggers for man-db (2.9.4-2) ...
+
+Running kernel seems to be up-to-date.
+
+The processor microcode seems to be up-to-date.
+
+Services to be restarted:
+ systemctl restart snap.subiquity.subiquity-server.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+Log ended: 2021-05-07  22:45:28
+

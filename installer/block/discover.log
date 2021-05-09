@@ -1,0 +1,1126 @@
+2021-05-07 22:40:38,828 curtin:89 Running command ['dpkg', '--print-architecture'] with allowed return codes [0] (capture=True)
+2021-05-07 22:40:39,773 curtin.reporting.start.subiquity/Meta/status_GET:45 start: subiquity/Meta/status_GET: 
+2021-05-07 22:40:39,774 curtin.reporting.finish.subiquity/Meta/status_GET:45 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "CLOUD_INIT_WAIT", "confirming_tty": "", "error": null, "cloud_init...
+2021-05-07 22:40:39,778 curtin.reporting.start.subiquity/Meta/status_GET:45 start: subiquity/Meta/status_GET: 
+2021-05-07 22:40:53,454 probert.multipath:49 Extracted multipath paths fields: ['nvme0n1', 'PHLN026001YK1P6AGN  ', '[orphan]', '[undef]', '[undef]', '[undef]', '[undef]', '[undef]']
+2021-05-07 22:40:53,454 probert.multipath:49 Extracted multipath paths fields: ['sda', '152705403409', '[orphan]', '[undef]', 'ata-1.00', '[undef]', '[undef]', '[undef]']
+2021-05-07 22:40:53,454 probert.multipath:49 Extracted multipath paths fields: ['sdb', '202401A009EE', '[orphan]', '[undef]', 'ata-3.00', '[undef]', '[undef]', '[undef]']
+2021-05-07 22:40:53,454 probert.multipath:49 Extracted multipath paths fields: ['nvme1n1', 'PHLN035300CV1P6AGN  ', '[orphan]', '[undef]', '[undef]', '[undef]', '[undef]', '[undef]']
+2021-05-07 22:40:53,838 probert.lvm:120 b'  1 logical volume(s) in volume group "ubuntu-vg" now active\n'
+2021-05-07 22:40:54,183 probert.dasd:131 Probing DASD devies
+2021-05-07 22:40:54,183 probert.dasd:134 DASD devices only present on s390x, arch=x86_64
+2021-05-07 22:40:54,189 curtin:1281 Extracting storage config from probe data
+2021-05-07 22:40:54,189 curtin:73 /dev/nvme0n1 is multipath device member? False
+2021-05-07 22:40:54,189 curtin:86 /dev/nvme0n1 is multipath device partition? False
+2021-05-07 22:40:54,189 curtin:61 /dev/nvme0n1 is multipath device? False
+2021-05-07 22:40:54,189 curtin:86 /dev/nvme0n1 is multipath device partition? False
+2021-05-07 22:40:54,189 curtin:61 /dev/nvme0n1 is multipath device? False
+2021-05-07 22:40:54,201 curtin:73 /dev/sdf is multipath device member? False
+2021-05-07 22:40:54,201 curtin:86 /dev/sdf is multipath device partition? False
+2021-05-07 22:40:54,201 curtin:61 /dev/sdf is multipath device? False
+2021-05-07 22:40:54,201 curtin:86 /dev/sdf is multipath device partition? False
+2021-05-07 22:40:54,201 curtin:61 /dev/sdf is multipath device? False
+2021-05-07 22:40:54,211 curtin:73 /dev/sdf1 is multipath device member? False
+2021-05-07 22:40:54,211 curtin:86 /dev/sdf1 is multipath device partition? False
+2021-05-07 22:40:54,211 curtin:61 /dev/sdf1 is multipath device? False
+2021-05-07 22:40:54,211 curtin:86 /dev/sdf1 is multipath device partition? False
+2021-05-07 22:40:54,211 curtin:86 /dev/sdf1 is multipath device partition? False
+2021-05-07 22:40:54,220 curtin:73 /dev/sdd is multipath device member? False
+2021-05-07 22:40:54,221 curtin:86 /dev/sdd is multipath device partition? False
+2021-05-07 22:40:54,221 curtin:61 /dev/sdd is multipath device? False
+2021-05-07 22:40:54,221 curtin:86 /dev/sdd is multipath device partition? False
+2021-05-07 22:40:54,221 curtin:61 /dev/sdd is multipath device? False
+2021-05-07 22:40:54,227 curtin:73 /dev/sde is multipath device member? False
+2021-05-07 22:40:54,227 curtin:86 /dev/sde is multipath device partition? False
+2021-05-07 22:40:54,227 curtin:61 /dev/sde is multipath device? False
+2021-05-07 22:40:54,227 curtin:86 /dev/sde is multipath device partition? False
+2021-05-07 22:40:54,227 curtin:61 /dev/sde is multipath device? False
+2021-05-07 22:40:54,233 curtin:73 /dev/sde1 is multipath device member? False
+2021-05-07 22:40:54,233 curtin:86 /dev/sde1 is multipath device partition? False
+2021-05-07 22:40:54,233 curtin:61 /dev/sde1 is multipath device? False
+2021-05-07 22:40:54,233 curtin:86 /dev/sde1 is multipath device partition? False
+2021-05-07 22:40:54,233 curtin:86 /dev/sde1 is multipath device partition? False
+2021-05-07 22:40:54,239 curtin:73 /dev/sda is multipath device member? False
+2021-05-07 22:40:54,239 curtin:86 /dev/sda is multipath device partition? False
+2021-05-07 22:40:54,239 curtin:61 /dev/sda is multipath device? False
+2021-05-07 22:40:54,239 curtin:86 /dev/sda is multipath device partition? False
+2021-05-07 22:40:54,239 curtin:61 /dev/sda is multipath device? False
+2021-05-07 22:40:54,245 curtin:73 /dev/sda1 is multipath device member? False
+2021-05-07 22:40:54,245 curtin:86 /dev/sda1 is multipath device partition? False
+2021-05-07 22:40:54,245 curtin:61 /dev/sda1 is multipath device? False
+2021-05-07 22:40:54,245 curtin:86 /dev/sda1 is multipath device partition? False
+2021-05-07 22:40:54,245 curtin:86 /dev/sda1 is multipath device partition? False
+2021-05-07 22:40:54,251 curtin:73 /dev/sda2 is multipath device member? False
+2021-05-07 22:40:54,251 curtin:86 /dev/sda2 is multipath device partition? False
+2021-05-07 22:40:54,251 curtin:61 /dev/sda2 is multipath device? False
+2021-05-07 22:40:54,251 curtin:86 /dev/sda2 is multipath device partition? False
+2021-05-07 22:40:54,251 curtin:86 /dev/sda2 is multipath device partition? False
+2021-05-07 22:40:54,257 curtin:73 /dev/sdb is multipath device member? False
+2021-05-07 22:40:54,257 curtin:86 /dev/sdb is multipath device partition? False
+2021-05-07 22:40:54,257 curtin:61 /dev/sdb is multipath device? False
+2021-05-07 22:40:54,257 curtin:86 /dev/sdb is multipath device partition? False
+2021-05-07 22:40:54,257 curtin:61 /dev/sdb is multipath device? False
+2021-05-07 22:40:54,263 curtin:73 /dev/sdb1 is multipath device member? False
+2021-05-07 22:40:54,263 curtin:86 /dev/sdb1 is multipath device partition? False
+2021-05-07 22:40:54,263 curtin:61 /dev/sdb1 is multipath device? False
+2021-05-07 22:40:54,263 curtin:86 /dev/sdb1 is multipath device partition? False
+2021-05-07 22:40:54,263 curtin:86 /dev/sdb1 is multipath device partition? False
+2021-05-07 22:40:54,268 curtin:73 /dev/sdb2 is multipath device member? False
+2021-05-07 22:40:54,269 curtin:86 /dev/sdb2 is multipath device partition? False
+2021-05-07 22:40:54,269 curtin:61 /dev/sdb2 is multipath device? False
+2021-05-07 22:40:54,269 curtin:86 /dev/sdb2 is multipath device partition? False
+2021-05-07 22:40:54,269 curtin:86 /dev/sdb2 is multipath device partition? False
+2021-05-07 22:40:54,274 curtin:73 /dev/sdb3 is multipath device member? False
+2021-05-07 22:40:54,274 curtin:86 /dev/sdb3 is multipath device partition? False
+2021-05-07 22:40:54,274 curtin:61 /dev/sdb3 is multipath device? False
+2021-05-07 22:40:54,274 curtin:86 /dev/sdb3 is multipath device partition? False
+2021-05-07 22:40:54,274 curtin:86 /dev/sdb3 is multipath device partition? False
+2021-05-07 22:40:54,280 curtin:73 /dev/nvme1n1 is multipath device member? False
+2021-05-07 22:40:54,280 curtin:86 /dev/nvme1n1 is multipath device partition? False
+2021-05-07 22:40:54,280 curtin:61 /dev/nvme1n1 is multipath device? False
+2021-05-07 22:40:54,280 curtin:86 /dev/nvme1n1 is multipath device partition? False
+2021-05-07 22:40:54,280 curtin:61 /dev/nvme1n1 is multipath device? False
+2021-05-07 22:40:54,286 curtin:73 /dev/sdc is multipath device member? False
+2021-05-07 22:40:54,286 curtin:86 /dev/sdc is multipath device partition? False
+2021-05-07 22:40:54,286 curtin:61 /dev/sdc is multipath device? False
+2021-05-07 22:40:54,286 curtin:86 /dev/sdc is multipath device partition? False
+2021-05-07 22:40:54,286 curtin:61 /dev/sdc is multipath device? False
+2021-05-07 22:40:54,292 curtin:73 /dev/sdc1 is multipath device member? False
+2021-05-07 22:40:54,292 curtin:86 /dev/sdc1 is multipath device partition? False
+2021-05-07 22:40:54,292 curtin:61 /dev/sdc1 is multipath device? False
+2021-05-07 22:40:54,292 curtin:86 /dev/sdc1 is multipath device partition? False
+2021-05-07 22:40:54,292 curtin:86 /dev/sdc1 is multipath device partition? False
+2021-05-07 22:40:54,298 curtin:73 /dev/sdc2 is multipath device member? False
+2021-05-07 22:40:54,298 curtin:86 /dev/sdc2 is multipath device partition? False
+2021-05-07 22:40:54,298 curtin:61 /dev/sdc2 is multipath device? False
+2021-05-07 22:40:54,298 curtin:86 /dev/sdc2 is multipath device partition? False
+2021-05-07 22:40:54,298 curtin:86 /dev/sdc2 is multipath device partition? False
+2021-05-07 22:40:54,304 curtin:73 /dev/sdc3 is multipath device member? False
+2021-05-07 22:40:54,304 curtin:86 /dev/sdc3 is multipath device partition? False
+2021-05-07 22:40:54,304 curtin:61 /dev/sdc3 is multipath device? False
+2021-05-07 22:40:54,304 curtin:86 /dev/sdc3 is multipath device partition? False
+2021-05-07 22:40:54,304 curtin:86 /dev/sdc3 is multipath device partition? False
+2021-05-07 22:40:54,310 curtin:73 /dev/sdc4 is multipath device member? False
+2021-05-07 22:40:54,310 curtin:86 /dev/sdc4 is multipath device partition? False
+2021-05-07 22:40:54,310 curtin:61 /dev/sdc4 is multipath device? False
+2021-05-07 22:40:54,310 curtin:86 /dev/sdc4 is multipath device partition? False
+2021-05-07 22:40:54,310 curtin:86 /dev/sdc4 is multipath device partition? False
+2021-05-07 22:40:54,316 curtin:61 /dev/dm-0 is multipath device? False
+2021-05-07 22:40:54,316 curtin:86 /dev/dm-0 is multipath device partition? False
+2021-05-07 22:40:54,316 curtin:61 /dev/md127 is multipath device? False
+2021-05-07 22:40:54,316 curtin:86 /dev/md127 is multipath device partition? False
+2021-05-07 22:40:54,316 curtin:73 /dev/sdf1 is multipath device member? False
+2021-05-07 22:40:54,322 curtin:73 /dev/sdd is multipath device member? False
+2021-05-07 22:40:54,328 curtin:73 /dev/sde1 is multipath device member? False
+2021-05-07 22:40:54,333 curtin:73 /dev/sda1 is multipath device member? False
+2021-05-07 22:40:54,339 curtin:73 /dev/sda2 is multipath device member? False
+2021-05-07 22:40:54,345 curtin:73 /dev/sdb2 is multipath device member? False
+2021-05-07 22:40:54,351 curtin:73 /dev/sdc is multipath device member? False
+2021-05-07 22:40:54,357 curtin:73 /dev/sdc1 is multipath device member? False
+2021-05-07 22:40:54,363 curtin:73 /dev/sdc2 is multipath device member? False
+2021-05-07 22:40:54,368 curtin:73 /dev/sdc4 is multipath device member? False
+2021-05-07 22:40:54,374 curtin:73 /dev/dm-0 is multipath device member? False
+2021-05-07 22:40:54,380 curtin:73 /dev/md127 is multipath device member? False
+2021-05-07 22:40:54,409 curtin:1288 Sorting extracted configurations
+2021-05-07 22:40:54,409 curtin:1307 Validating extracted storage config components
+2021-05-07 22:40:54,440 curtin:1326 Extracted (unmerged) storage config:
+storage:
+-   id: disk-nvme0n1
+    path: /dev/nvme0n1
+    serial: INTEL SSDPE2KE016T8_PHLN026001YK1P6AGN
+    type: disk
+    wwn: eui.01000000010000005cd2e4b762645251
+-   id: disk-sdf
+    path: /dev/sdf
+    ptable: gpt
+    serial: WD_My_Book_25ED_35504A56324C3546-0:0
+    type: disk
+-   id: disk-sdd
+    path: /dev/sdd
+    serial: WD_My_Book_25ED_35504A5547445A46-0:0
+    type: disk
+-   id: disk-sde
+    path: /dev/sde
+    ptable: gpt
+    serial: WD_My_Book_25ED_35504A56414B3546-0:0
+    type: disk
+-   id: disk-sda
+    path: /dev/sda
+    ptable: gpt
+    serial: SanDisk_SDSSDP128G_152705403409
+    type: disk
+    wwn: '0x5001b44e99888611'
+-   id: disk-sdb
+    path: /dev/sdb
+    ptable: gpt
+    serial: SanDisk_SSD_PLUS_120GB_202401A009EE
+    type: disk
+    wwn: '0x5001b448b5d39eea'
+-   id: disk-nvme1n1
+    path: /dev/nvme1n1
+    serial: INTEL SSDPE2KE016T8_PHLN035300CV1P6AGN
+    type: disk
+    wwn: eui.01000000010000005cd2e45c17005351
+-   id: disk-sdc
+    path: /dev/sdc
+    ptable: gpt
+    serial: USB_Flash_Disk-0:0
+    type: disk
+-   device: disk-sdf
+    id: partition-sdf1
+    number: 1
+    offset: 1048576
+    size: 12000136527872
+    type: partition
+-   device: disk-sde
+    id: partition-sde1
+    number: 1
+    offset: 1048576
+    size: 12000136527872
+    type: partition
+-   device: disk-sda
+    flag: boot
+    id: partition-sda1
+    number: 1
+    offset: 1048576
+    size: 536870912
+    type: partition
+-   device: disk-sda
+    flag: linux
+    id: partition-sda2
+    number: 2
+    offset: 537919488
+    size: 125495672832
+    type: partition
+-   device: disk-sdb
+    flag: bios_grub
+    id: partition-sdb1
+    number: 1
+    offset: 1048576
+    size: 1048576
+    type: partition
+-   device: disk-sdb
+    flag: linux
+    id: partition-sdb2
+    number: 2
+    offset: 2097152
+    size: 1073741824
+    type: partition
+-   device: disk-sdb
+    flag: linux
+    id: partition-sdb3
+    number: 3
+    offset: 1075838976
+    size: 118964092928
+    type: partition
+-   device: disk-sdc
+    id: partition-sdc1
+    number: 1
+    offset: 32768
+    size: 1168730112
+    type: partition
+-   device: disk-sdc
+    flag: boot
+    id: partition-sdc2
+    number: 2
+    offset: 1168762880
+    size: 5140480
+    type: partition
+-   device: disk-sdc
+    id: partition-sdc3
+    number: 3
+    offset: 1173903360
+    size: 307200
+    type: partition
+-   device: disk-sdc
+    flag: linux
+    id: partition-sdc4
+    number: 4
+    offset: 1174405120
+    size: 31037817344
+    type: partition
+-   fstype: ext4
+    id: format-partition-sdf1
+    type: format
+    uuid: b72d9760-b096-49e1-8b81-e435a5dccd37
+    volume: partition-sdf1
+-   fstype: ext4
+    id: format-disk-sdd
+    type: format
+    uuid: 27d0cc6a-4249-45bf-88f0-bdc3a59dc018
+    volume: disk-sdd
+-   fstype: ext4
+    id: format-partition-sde1
+    type: format
+    uuid: c3ca046a-070e-42c9-8b4d-f3bb02897062
+    volume: partition-sde1
+-   fstype: vfat
+    id: format-partition-sda1
+    type: format
+    volume: partition-sda1
+-   fstype: ext4
+    id: format-partition-sda2
+    type: format
+    uuid: efdd4a43-a498-43ff-895e-98e1e991ec74
+    volume: partition-sda2
+-   fstype: ext4
+    id: format-partition-sdb2
+    type: format
+    uuid: 371c5dbc-4076-4ac2-a3f4-ca5470fe3e16
+    volume: partition-sdb2
+-   fstype: iso9660
+    id: format-disk-sdc
+    type: format
+    volume: disk-sdc
+-   fstype: iso9660
+    id: format-partition-sdc1
+    type: format
+    volume: partition-sdc1
+-   fstype: vfat
+    id: format-partition-sdc2
+    type: format
+    volume: partition-sdc2
+-   fstype: ext4
+    id: format-partition-sdc4
+    type: format
+    uuid: 4a462e31-60e5-4d65-970e-dcefdb8aaabb
+    volume: partition-sdc4
+-   fstype: ext4
+    id: format-lvm-partition-ubuntu-lv
+    type: format
+    uuid: 94cc3911-313b-4d83-83cb-956353b8ee4c
+    volume: lvm-partition-ubuntu-lv
+-   fstype: xfs
+    id: format-raid-md127
+    type: format
+    uuid: 83149f5b-eaed-41fd-9d47-77a594a099c0
+    volume: raid-md127
+-   devices:
+    - partition-sdb3
+    id: lvm-volgroup-ubuntu-vg
+    name: ubuntu-vg
+    type: lvm_volgroup
+-   id: lvm-partition-ubuntu-lv
+    name: ubuntu-lv
+    size: 59483619328B
+    type: lvm_partition
+    volgroup: lvm-volgroup-ubuntu-vg
+-   devices:
+    - disk-nvme0n1
+    - disk-nvme1n1
+    id: raid-md127
+    name: md127
+    raidlevel: raid0
+    spare_devices: []
+    type: raid
+-   device: format-partition-sdc1
+    id: mount-partition-sdc1
+    path: /cdrom
+    type: mount
+
+2021-05-07 22:40:54,440 curtin:1328 Generating storage config dependencies
+2021-05-07 22:40:54,440 curtin:239 Validate: partition-sdf1:SourceType:partition -> (DepId:disk-sdf DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,440 curtin:239 Validate: partition-sde1:SourceType:partition -> (DepId:disk-sde DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,440 curtin:239 Validate: partition-sda1:SourceType:partition -> (DepId:disk-sda DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,440 curtin:239 Validate: partition-sda2:SourceType:partition -> (DepId:disk-sda DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,440 curtin:239 Validate: partition-sdb1:SourceType:partition -> (DepId:disk-sdb DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: partition-sdb2:SourceType:partition -> (DepId:disk-sdb DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: partition-sdb3:SourceType:partition -> (DepId:disk-sdb DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: partition-sdc1:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: partition-sdc2:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: partition-sdc3:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: partition-sdc4:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: format-partition-sdf1:SourceType:format -> (DepId:partition-sdf1 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: partition-sdf1:SourceType:partition -> (DepId:disk-sdf DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: format-disk-sdd:SourceType:format -> (DepId:disk-sdd DepType:disk) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: format-partition-sde1:SourceType:format -> (DepId:partition-sde1 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: partition-sde1:SourceType:partition -> (DepId:disk-sde DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: format-partition-sda1:SourceType:format -> (DepId:partition-sda1 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: partition-sda1:SourceType:partition -> (DepId:disk-sda DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: format-partition-sda2:SourceType:format -> (DepId:partition-sda2 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: partition-sda2:SourceType:partition -> (DepId:disk-sda DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: format-partition-sdb2:SourceType:format -> (DepId:partition-sdb2 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: partition-sdb2:SourceType:partition -> (DepId:disk-sdb DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: format-disk-sdc:SourceType:format -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: format-partition-sdc1:SourceType:format -> (DepId:partition-sdc1 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: partition-sdc1:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: format-partition-sdc2:SourceType:format -> (DepId:partition-sdc2 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,441 curtin:239 Validate: partition-sdc2:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: format-partition-sdc4:SourceType:format -> (DepId:partition-sdc4 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: partition-sdc4:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: format-lvm-partition-ubuntu-lv:SourceType:format -> (DepId:lvm-partition-ubuntu-lv DepType:lvm_partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: lvm-partition-ubuntu-lv:SourceType:lvm_partition -> (DepId:lvm-volgroup-ubuntu-vg DepType:lvm_volgroup) in SourceDeps:{'lvm_volgroup'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: lvm-volgroup-ubuntu-vg:SourceType:lvm_volgroup -> (DepId:partition-sdb3 DepType:partition) in SourceDeps:{'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: partition-sdb3:SourceType:partition -> (DepId:disk-sdb DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: format-raid-md127:SourceType:format -> (DepId:raid-md127 DepType:raid) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: raid-md127:SourceType:raid -> (DepId:disk-nvme0n1 DepType:disk) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: raid-md127:SourceType:raid -> (DepId:disk-nvme1n1 DepType:disk) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: lvm-volgroup-ubuntu-vg:SourceType:lvm_volgroup -> (DepId:partition-sdb3 DepType:partition) in SourceDeps:{'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: partition-sdb3:SourceType:partition -> (DepId:disk-sdb DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: lvm-partition-ubuntu-lv:SourceType:lvm_partition -> (DepId:lvm-volgroup-ubuntu-vg DepType:lvm_volgroup) in SourceDeps:{'lvm_volgroup'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: lvm-volgroup-ubuntu-vg:SourceType:lvm_volgroup -> (DepId:partition-sdb3 DepType:partition) in SourceDeps:{'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: partition-sdb3:SourceType:partition -> (DepId:disk-sdb DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: raid-md127:SourceType:raid -> (DepId:disk-nvme0n1 DepType:disk) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: raid-md127:SourceType:raid -> (DepId:disk-nvme1n1 DepType:disk) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: mount-partition-sdc1:SourceType:mount -> (DepId:format-partition-sdc1 DepType:format) in SourceDeps:{'format'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: format-partition-sdc1:SourceType:format -> (DepId:partition-sdc1 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:239 Validate: partition-sdc1:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:40:54,442 curtin:1334 Merging storage config dependencies
+2021-05-07 22:40:54,449 curtin:1341 Merged storage config:
+storage:
+    config:
+    -   id: disk-nvme0n1
+        path: /dev/nvme0n1
+        serial: INTEL SSDPE2KE016T8_PHLN026001YK1P6AGN
+        type: disk
+        wwn: eui.01000000010000005cd2e4b762645251
+    -   id: disk-nvme1n1
+        path: /dev/nvme1n1
+        serial: INTEL SSDPE2KE016T8_PHLN035300CV1P6AGN
+        type: disk
+        wwn: eui.01000000010000005cd2e45c17005351
+    -   id: disk-sda
+        path: /dev/sda
+        ptable: gpt
+        serial: SanDisk_SDSSDP128G_152705403409
+        type: disk
+        wwn: '0x5001b44e99888611'
+    -   id: disk-sdb
+        path: /dev/sdb
+        ptable: gpt
+        serial: SanDisk_SSD_PLUS_120GB_202401A009EE
+        type: disk
+        wwn: '0x5001b448b5d39eea'
+    -   id: disk-sdc
+        path: /dev/sdc
+        ptable: gpt
+        serial: USB_Flash_Disk-0:0
+        type: disk
+    -   id: disk-sdd
+        path: /dev/sdd
+        serial: WD_My_Book_25ED_35504A5547445A46-0:0
+        type: disk
+    -   id: disk-sde
+        path: /dev/sde
+        ptable: gpt
+        serial: WD_My_Book_25ED_35504A56414B3546-0:0
+        type: disk
+    -   id: disk-sdf
+        path: /dev/sdf
+        ptable: gpt
+        serial: WD_My_Book_25ED_35504A56324C3546-0:0
+        type: disk
+    -   fstype: iso9660
+        id: format-disk-sdc
+        type: format
+        volume: disk-sdc
+    -   fstype: ext4
+        id: format-disk-sdd
+        type: format
+        uuid: 27d0cc6a-4249-45bf-88f0-bdc3a59dc018
+        volume: disk-sdd
+    -   device: disk-sdf
+        id: partition-sdf1
+        number: 1
+        offset: 1048576
+        size: 12000136527872
+        type: partition
+    -   device: disk-sde
+        id: partition-sde1
+        number: 1
+        offset: 1048576
+        size: 12000136527872
+        type: partition
+    -   fstype: ext4
+        id: format-partition-sde1
+        type: format
+        uuid: c3ca046a-070e-42c9-8b4d-f3bb02897062
+        volume: partition-sde1
+    -   fstype: ext4
+        id: format-partition-sdf1
+        type: format
+        uuid: b72d9760-b096-49e1-8b81-e435a5dccd37
+        volume: partition-sdf1
+    -   device: disk-sda
+        flag: boot
+        id: partition-sda1
+        number: 1
+        offset: 1048576
+        size: 536870912
+        type: partition
+    -   device: disk-sda
+        flag: linux
+        id: partition-sda2
+        number: 2
+        offset: 537919488
+        size: 125495672832
+        type: partition
+    -   devices:
+        - disk-nvme0n1
+        - disk-nvme1n1
+        id: raid-md127
+        name: md127
+        raidlevel: raid0
+        spare_devices: []
+        type: raid
+    -   fstype: vfat
+        id: format-partition-sda1
+        type: format
+        volume: partition-sda1
+    -   fstype: ext4
+        id: format-partition-sda2
+        type: format
+        uuid: efdd4a43-a498-43ff-895e-98e1e991ec74
+        volume: partition-sda2
+    -   fstype: xfs
+        id: format-raid-md127
+        type: format
+        uuid: 83149f5b-eaed-41fd-9d47-77a594a099c0
+        volume: raid-md127
+    -   device: disk-sdb
+        flag: bios_grub
+        id: partition-sdb1
+        number: 1
+        offset: 1048576
+        size: 1048576
+        type: partition
+    -   device: disk-sdb
+        flag: linux
+        id: partition-sdb2
+        number: 2
+        offset: 2097152
+        size: 1073741824
+        type: partition
+    -   device: disk-sdb
+        flag: linux
+        id: partition-sdb3
+        number: 3
+        offset: 1075838976
+        size: 118964092928
+        type: partition
+    -   fstype: ext4
+        id: format-partition-sdb2
+        type: format
+        uuid: 371c5dbc-4076-4ac2-a3f4-ca5470fe3e16
+        volume: partition-sdb2
+    -   devices:
+        - partition-sdb3
+        id: lvm-volgroup-ubuntu-vg
+        name: ubuntu-vg
+        type: lvm_volgroup
+    -   device: disk-sdc
+        id: partition-sdc1
+        number: 1
+        offset: 32768
+        size: 1168730112
+        type: partition
+    -   device: disk-sdc
+        flag: boot
+        id: partition-sdc2
+        number: 2
+        offset: 1168762880
+        size: 5140480
+        type: partition
+    -   device: disk-sdc
+        id: partition-sdc3
+        number: 3
+        offset: 1173903360
+        size: 307200
+        type: partition
+    -   device: disk-sdc
+        flag: linux
+        id: partition-sdc4
+        number: 4
+        offset: 1174405120
+        size: 31037817344
+        type: partition
+    -   fstype: iso9660
+        id: format-partition-sdc1
+        type: format
+        volume: partition-sdc1
+    -   fstype: vfat
+        id: format-partition-sdc2
+        type: format
+        volume: partition-sdc2
+    -   fstype: ext4
+        id: format-partition-sdc4
+        type: format
+        uuid: 4a462e31-60e5-4d65-970e-dcefdb8aaabb
+        volume: partition-sdc4
+    -   id: lvm-partition-ubuntu-lv
+        name: ubuntu-lv
+        size: 59483619328B
+        type: lvm_partition
+        volgroup: lvm-volgroup-ubuntu-vg
+    -   fstype: ext4
+        id: format-lvm-partition-ubuntu-lv
+        type: format
+        uuid: 94cc3911-313b-4d83-83cb-956353b8ee4c
+        volume: lvm-partition-ubuntu-lv
+    -   device: format-partition-sdc1
+        id: mount-partition-sdc1
+        path: /cdrom
+        type: mount
+    version: 1
+
+2021-05-07 22:43:15,023 probert.multipath:49 Extracted multipath paths fields: ['nvme0n1', 'PHLN026001YK1P6AGN  ', '[orphan]', '[undef]', '[undef]', '[undef]', '[undef]', '[undef]']
+2021-05-07 22:43:15,023 probert.multipath:49 Extracted multipath paths fields: ['sda', '152705403409', '[orphan]', '[undef]', 'ata-1.00', '[undef]', '[undef]', '[undef]']
+2021-05-07 22:43:15,023 probert.multipath:49 Extracted multipath paths fields: ['sdb', '202401A009EE', '[orphan]', '[undef]', 'ata-3.00', '[undef]', '[undef]', '[undef]']
+2021-05-07 22:43:15,023 probert.multipath:49 Extracted multipath paths fields: ['nvme1n1', 'PHLN035300CV1P6AGN  ', '[orphan]', '[undef]', '[undef]', '[undef]', '[undef]', '[undef]']
+2021-05-07 22:43:15,246 probert.lvm:120 b'  1 logical volume(s) in volume group "ubuntu-vg" now active\n'
+2021-05-07 22:43:15,540 probert.dasd:131 Probing DASD devies
+2021-05-07 22:43:15,540 probert.dasd:134 DASD devices only present on s390x, arch=x86_64
+2021-05-07 22:43:15,546 curtin:1281 Extracting storage config from probe data
+2021-05-07 22:43:15,547 curtin:73 /dev/nvme0n1 is multipath device member? False
+2021-05-07 22:43:15,547 curtin:86 /dev/nvme0n1 is multipath device partition? False
+2021-05-07 22:43:15,547 curtin:61 /dev/nvme0n1 is multipath device? False
+2021-05-07 22:43:15,547 curtin:86 /dev/nvme0n1 is multipath device partition? False
+2021-05-07 22:43:15,547 curtin:61 /dev/nvme0n1 is multipath device? False
+2021-05-07 22:43:15,557 curtin:73 /dev/sdf is multipath device member? False
+2021-05-07 22:43:15,557 curtin:86 /dev/sdf is multipath device partition? False
+2021-05-07 22:43:15,557 curtin:61 /dev/sdf is multipath device? False
+2021-05-07 22:43:15,558 curtin:86 /dev/sdf is multipath device partition? False
+2021-05-07 22:43:15,558 curtin:61 /dev/sdf is multipath device? False
+2021-05-07 22:43:15,567 curtin:73 /dev/sdf1 is multipath device member? False
+2021-05-07 22:43:15,567 curtin:86 /dev/sdf1 is multipath device partition? False
+2021-05-07 22:43:15,567 curtin:61 /dev/sdf1 is multipath device? False
+2021-05-07 22:43:15,567 curtin:86 /dev/sdf1 is multipath device partition? False
+2021-05-07 22:43:15,567 curtin:86 /dev/sdf1 is multipath device partition? False
+2021-05-07 22:43:15,576 curtin:73 /dev/sdd is multipath device member? False
+2021-05-07 22:43:15,577 curtin:86 /dev/sdd is multipath device partition? False
+2021-05-07 22:43:15,577 curtin:61 /dev/sdd is multipath device? False
+2021-05-07 22:43:15,577 curtin:86 /dev/sdd is multipath device partition? False
+2021-05-07 22:43:15,577 curtin:61 /dev/sdd is multipath device? False
+2021-05-07 22:43:15,586 curtin:73 /dev/sde is multipath device member? False
+2021-05-07 22:43:15,586 curtin:86 /dev/sde is multipath device partition? False
+2021-05-07 22:43:15,586 curtin:61 /dev/sde is multipath device? False
+2021-05-07 22:43:15,586 curtin:86 /dev/sde is multipath device partition? False
+2021-05-07 22:43:15,586 curtin:61 /dev/sde is multipath device? False
+2021-05-07 22:43:15,592 curtin:73 /dev/sde1 is multipath device member? False
+2021-05-07 22:43:15,592 curtin:86 /dev/sde1 is multipath device partition? False
+2021-05-07 22:43:15,592 curtin:61 /dev/sde1 is multipath device? False
+2021-05-07 22:43:15,592 curtin:86 /dev/sde1 is multipath device partition? False
+2021-05-07 22:43:15,592 curtin:86 /dev/sde1 is multipath device partition? False
+2021-05-07 22:43:15,598 curtin:73 /dev/sda is multipath device member? False
+2021-05-07 22:43:15,598 curtin:86 /dev/sda is multipath device partition? False
+2021-05-07 22:43:15,598 curtin:61 /dev/sda is multipath device? False
+2021-05-07 22:43:15,598 curtin:86 /dev/sda is multipath device partition? False
+2021-05-07 22:43:15,598 curtin:61 /dev/sda is multipath device? False
+2021-05-07 22:43:15,604 curtin:73 /dev/sda1 is multipath device member? False
+2021-05-07 22:43:15,604 curtin:86 /dev/sda1 is multipath device partition? False
+2021-05-07 22:43:15,604 curtin:61 /dev/sda1 is multipath device? False
+2021-05-07 22:43:15,604 curtin:86 /dev/sda1 is multipath device partition? False
+2021-05-07 22:43:15,604 curtin:86 /dev/sda1 is multipath device partition? False
+2021-05-07 22:43:15,610 curtin:73 /dev/sda2 is multipath device member? False
+2021-05-07 22:43:15,610 curtin:86 /dev/sda2 is multipath device partition? False
+2021-05-07 22:43:15,610 curtin:61 /dev/sda2 is multipath device? False
+2021-05-07 22:43:15,610 curtin:86 /dev/sda2 is multipath device partition? False
+2021-05-07 22:43:15,610 curtin:86 /dev/sda2 is multipath device partition? False
+2021-05-07 22:43:15,616 curtin:73 /dev/sdb is multipath device member? False
+2021-05-07 22:43:15,616 curtin:86 /dev/sdb is multipath device partition? False
+2021-05-07 22:43:15,616 curtin:61 /dev/sdb is multipath device? False
+2021-05-07 22:43:15,616 curtin:86 /dev/sdb is multipath device partition? False
+2021-05-07 22:43:15,616 curtin:61 /dev/sdb is multipath device? False
+2021-05-07 22:43:15,622 curtin:73 /dev/sdb1 is multipath device member? False
+2021-05-07 22:43:15,622 curtin:86 /dev/sdb1 is multipath device partition? False
+2021-05-07 22:43:15,622 curtin:61 /dev/sdb1 is multipath device? False
+2021-05-07 22:43:15,622 curtin:86 /dev/sdb1 is multipath device partition? False
+2021-05-07 22:43:15,622 curtin:86 /dev/sdb1 is multipath device partition? False
+2021-05-07 22:43:15,628 curtin:73 /dev/sdb2 is multipath device member? False
+2021-05-07 22:43:15,628 curtin:86 /dev/sdb2 is multipath device partition? False
+2021-05-07 22:43:15,628 curtin:61 /dev/sdb2 is multipath device? False
+2021-05-07 22:43:15,628 curtin:86 /dev/sdb2 is multipath device partition? False
+2021-05-07 22:43:15,628 curtin:86 /dev/sdb2 is multipath device partition? False
+2021-05-07 22:43:15,634 curtin:73 /dev/sdb3 is multipath device member? False
+2021-05-07 22:43:15,634 curtin:86 /dev/sdb3 is multipath device partition? False
+2021-05-07 22:43:15,634 curtin:61 /dev/sdb3 is multipath device? False
+2021-05-07 22:43:15,634 curtin:86 /dev/sdb3 is multipath device partition? False
+2021-05-07 22:43:15,634 curtin:86 /dev/sdb3 is multipath device partition? False
+2021-05-07 22:43:15,640 curtin:73 /dev/nvme1n1 is multipath device member? False
+2021-05-07 22:43:15,640 curtin:86 /dev/nvme1n1 is multipath device partition? False
+2021-05-07 22:43:15,640 curtin:61 /dev/nvme1n1 is multipath device? False
+2021-05-07 22:43:15,640 curtin:86 /dev/nvme1n1 is multipath device partition? False
+2021-05-07 22:43:15,640 curtin:61 /dev/nvme1n1 is multipath device? False
+2021-05-07 22:43:15,646 curtin:73 /dev/sdc is multipath device member? False
+2021-05-07 22:43:15,646 curtin:86 /dev/sdc is multipath device partition? False
+2021-05-07 22:43:15,646 curtin:61 /dev/sdc is multipath device? False
+2021-05-07 22:43:15,646 curtin:86 /dev/sdc is multipath device partition? False
+2021-05-07 22:43:15,646 curtin:61 /dev/sdc is multipath device? False
+2021-05-07 22:43:15,652 curtin:73 /dev/sdc1 is multipath device member? False
+2021-05-07 22:43:15,652 curtin:86 /dev/sdc1 is multipath device partition? False
+2021-05-07 22:43:15,652 curtin:61 /dev/sdc1 is multipath device? False
+2021-05-07 22:43:15,652 curtin:86 /dev/sdc1 is multipath device partition? False
+2021-05-07 22:43:15,652 curtin:86 /dev/sdc1 is multipath device partition? False
+2021-05-07 22:43:15,658 curtin:73 /dev/sdc2 is multipath device member? False
+2021-05-07 22:43:15,658 curtin:86 /dev/sdc2 is multipath device partition? False
+2021-05-07 22:43:15,658 curtin:61 /dev/sdc2 is multipath device? False
+2021-05-07 22:43:15,658 curtin:86 /dev/sdc2 is multipath device partition? False
+2021-05-07 22:43:15,658 curtin:86 /dev/sdc2 is multipath device partition? False
+2021-05-07 22:43:15,664 curtin:73 /dev/sdc3 is multipath device member? False
+2021-05-07 22:43:15,664 curtin:86 /dev/sdc3 is multipath device partition? False
+2021-05-07 22:43:15,664 curtin:61 /dev/sdc3 is multipath device? False
+2021-05-07 22:43:15,664 curtin:86 /dev/sdc3 is multipath device partition? False
+2021-05-07 22:43:15,664 curtin:86 /dev/sdc3 is multipath device partition? False
+2021-05-07 22:43:15,670 curtin:73 /dev/sdc4 is multipath device member? False
+2021-05-07 22:43:15,670 curtin:86 /dev/sdc4 is multipath device partition? False
+2021-05-07 22:43:15,670 curtin:61 /dev/sdc4 is multipath device? False
+2021-05-07 22:43:15,670 curtin:86 /dev/sdc4 is multipath device partition? False
+2021-05-07 22:43:15,670 curtin:86 /dev/sdc4 is multipath device partition? False
+2021-05-07 22:43:15,676 curtin:61 /dev/dm-0 is multipath device? False
+2021-05-07 22:43:15,676 curtin:86 /dev/dm-0 is multipath device partition? False
+2021-05-07 22:43:15,676 curtin:61 /dev/md127 is multipath device? False
+2021-05-07 22:43:15,676 curtin:86 /dev/md127 is multipath device partition? False
+2021-05-07 22:43:15,676 curtin:73 /dev/sdf1 is multipath device member? False
+2021-05-07 22:43:15,682 curtin:73 /dev/sdd is multipath device member? False
+2021-05-07 22:43:15,688 curtin:73 /dev/sde1 is multipath device member? False
+2021-05-07 22:43:15,693 curtin:73 /dev/sda1 is multipath device member? False
+2021-05-07 22:43:15,699 curtin:73 /dev/sda2 is multipath device member? False
+2021-05-07 22:43:15,705 curtin:73 /dev/sdb2 is multipath device member? False
+2021-05-07 22:43:15,711 curtin:73 /dev/sdc is multipath device member? False
+2021-05-07 22:43:15,717 curtin:73 /dev/sdc1 is multipath device member? False
+2021-05-07 22:43:15,722 curtin:73 /dev/sdc2 is multipath device member? False
+2021-05-07 22:43:15,728 curtin:73 /dev/sdc4 is multipath device member? False
+2021-05-07 22:43:15,734 curtin:73 /dev/dm-0 is multipath device member? False
+2021-05-07 22:43:15,740 curtin:73 /dev/md127 is multipath device member? False
+2021-05-07 22:43:15,769 curtin:1288 Sorting extracted configurations
+2021-05-07 22:43:15,769 curtin:1307 Validating extracted storage config components
+2021-05-07 22:43:15,788 curtin:1326 Extracted (unmerged) storage config:
+storage:
+-   id: disk-nvme0n1
+    path: /dev/nvme0n1
+    serial: INTEL SSDPE2KE016T8_PHLN026001YK1P6AGN
+    type: disk
+    wwn: eui.01000000010000005cd2e4b762645251
+-   id: disk-sdf
+    path: /dev/sdf
+    ptable: gpt
+    serial: WD_My_Book_25ED_35504A56324C3546-0:0
+    type: disk
+-   id: disk-sdd
+    path: /dev/sdd
+    serial: WD_My_Book_25ED_35504A5547445A46-0:0
+    type: disk
+-   id: disk-sde
+    path: /dev/sde
+    ptable: gpt
+    serial: WD_My_Book_25ED_35504A56414B3546-0:0
+    type: disk
+-   id: disk-sda
+    path: /dev/sda
+    ptable: gpt
+    serial: SanDisk_SDSSDP128G_152705403409
+    type: disk
+    wwn: '0x5001b44e99888611'
+-   id: disk-sdb
+    path: /dev/sdb
+    ptable: gpt
+    serial: SanDisk_SSD_PLUS_120GB_202401A009EE
+    type: disk
+    wwn: '0x5001b448b5d39eea'
+-   id: disk-nvme1n1
+    path: /dev/nvme1n1
+    serial: INTEL SSDPE2KE016T8_PHLN035300CV1P6AGN
+    type: disk
+    wwn: eui.01000000010000005cd2e45c17005351
+-   id: disk-sdc
+    path: /dev/sdc
+    ptable: gpt
+    serial: USB_Flash_Disk-0:0
+    type: disk
+-   device: disk-sdf
+    id: partition-sdf1
+    number: 1
+    offset: 1048576
+    size: 12000136527872
+    type: partition
+-   device: disk-sde
+    id: partition-sde1
+    number: 1
+    offset: 1048576
+    size: 12000136527872
+    type: partition
+-   device: disk-sda
+    flag: boot
+    id: partition-sda1
+    number: 1
+    offset: 1048576
+    size: 536870912
+    type: partition
+-   device: disk-sda
+    flag: linux
+    id: partition-sda2
+    number: 2
+    offset: 537919488
+    size: 125495672832
+    type: partition
+-   device: disk-sdb
+    flag: bios_grub
+    id: partition-sdb1
+    number: 1
+    offset: 1048576
+    size: 1048576
+    type: partition
+-   device: disk-sdb
+    flag: linux
+    id: partition-sdb2
+    number: 2
+    offset: 2097152
+    size: 1073741824
+    type: partition
+-   device: disk-sdb
+    flag: linux
+    id: partition-sdb3
+    number: 3
+    offset: 1075838976
+    size: 118964092928
+    type: partition
+-   device: disk-sdc
+    id: partition-sdc1
+    number: 1
+    offset: 32768
+    size: 1168730112
+    type: partition
+-   device: disk-sdc
+    flag: boot
+    id: partition-sdc2
+    number: 2
+    offset: 1168762880
+    size: 5140480
+    type: partition
+-   device: disk-sdc
+    id: partition-sdc3
+    number: 3
+    offset: 1173903360
+    size: 307200
+    type: partition
+-   device: disk-sdc
+    flag: linux
+    id: partition-sdc4
+    number: 4
+    offset: 1174405120
+    size: 31037817344
+    type: partition
+-   fstype: ext4
+    id: format-partition-sdf1
+    type: format
+    uuid: b72d9760-b096-49e1-8b81-e435a5dccd37
+    volume: partition-sdf1
+-   fstype: ext4
+    id: format-disk-sdd
+    type: format
+    uuid: 27d0cc6a-4249-45bf-88f0-bdc3a59dc018
+    volume: disk-sdd
+-   fstype: ext4
+    id: format-partition-sde1
+    type: format
+    uuid: c3ca046a-070e-42c9-8b4d-f3bb02897062
+    volume: partition-sde1
+-   fstype: vfat
+    id: format-partition-sda1
+    type: format
+    volume: partition-sda1
+-   fstype: ext4
+    id: format-partition-sda2
+    type: format
+    uuid: efdd4a43-a498-43ff-895e-98e1e991ec74
+    volume: partition-sda2
+-   fstype: ext4
+    id: format-partition-sdb2
+    type: format
+    uuid: 371c5dbc-4076-4ac2-a3f4-ca5470fe3e16
+    volume: partition-sdb2
+-   fstype: iso9660
+    id: format-disk-sdc
+    type: format
+    volume: disk-sdc
+-   fstype: iso9660
+    id: format-partition-sdc1
+    type: format
+    volume: partition-sdc1
+-   fstype: vfat
+    id: format-partition-sdc2
+    type: format
+    volume: partition-sdc2
+-   fstype: ext4
+    id: format-partition-sdc4
+    type: format
+    uuid: 4a462e31-60e5-4d65-970e-dcefdb8aaabb
+    volume: partition-sdc4
+-   fstype: ext4
+    id: format-lvm-partition-ubuntu-lv
+    type: format
+    uuid: 94cc3911-313b-4d83-83cb-956353b8ee4c
+    volume: lvm-partition-ubuntu-lv
+-   fstype: xfs
+    id: format-raid-md127
+    type: format
+    uuid: 83149f5b-eaed-41fd-9d47-77a594a099c0
+    volume: raid-md127
+-   devices:
+    - partition-sdb3
+    id: lvm-volgroup-ubuntu-vg
+    name: ubuntu-vg
+    type: lvm_volgroup
+-   id: lvm-partition-ubuntu-lv
+    name: ubuntu-lv
+    size: 59483619328B
+    type: lvm_partition
+    volgroup: lvm-volgroup-ubuntu-vg
+-   devices:
+    - disk-nvme0n1
+    - disk-nvme1n1
+    id: raid-md127
+    name: md127
+    raidlevel: raid0
+    spare_devices: []
+    type: raid
+-   device: format-partition-sdc1
+    id: mount-partition-sdc1
+    path: /cdrom
+    type: mount
+
+2021-05-07 22:43:15,788 curtin:1328 Generating storage config dependencies
+2021-05-07 22:43:15,788 curtin:239 Validate: partition-sdf1:SourceType:partition -> (DepId:disk-sdf DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,788 curtin:239 Validate: partition-sde1:SourceType:partition -> (DepId:disk-sde DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,788 curtin:239 Validate: partition-sda1:SourceType:partition -> (DepId:disk-sda DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,788 curtin:239 Validate: partition-sda2:SourceType:partition -> (DepId:disk-sda DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,788 curtin:239 Validate: partition-sdb1:SourceType:partition -> (DepId:disk-sdb DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,788 curtin:239 Validate: partition-sdb2:SourceType:partition -> (DepId:disk-sdb DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: partition-sdb3:SourceType:partition -> (DepId:disk-sdb DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: partition-sdc1:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: partition-sdc2:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: partition-sdc3:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: partition-sdc4:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: format-partition-sdf1:SourceType:format -> (DepId:partition-sdf1 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: partition-sdf1:SourceType:partition -> (DepId:disk-sdf DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: format-disk-sdd:SourceType:format -> (DepId:disk-sdd DepType:disk) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: format-partition-sde1:SourceType:format -> (DepId:partition-sde1 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: partition-sde1:SourceType:partition -> (DepId:disk-sde DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: format-partition-sda1:SourceType:format -> (DepId:partition-sda1 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: partition-sda1:SourceType:partition -> (DepId:disk-sda DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: format-partition-sda2:SourceType:format -> (DepId:partition-sda2 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: partition-sda2:SourceType:partition -> (DepId:disk-sda DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: format-partition-sdb2:SourceType:format -> (DepId:partition-sdb2 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: partition-sdb2:SourceType:partition -> (DepId:disk-sdb DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: format-disk-sdc:SourceType:format -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: format-partition-sdc1:SourceType:format -> (DepId:partition-sdc1 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: partition-sdc1:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: format-partition-sdc2:SourceType:format -> (DepId:partition-sdc2 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,789 curtin:239 Validate: partition-sdc2:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: format-partition-sdc4:SourceType:format -> (DepId:partition-sdc4 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: partition-sdc4:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: format-lvm-partition-ubuntu-lv:SourceType:format -> (DepId:lvm-partition-ubuntu-lv DepType:lvm_partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: lvm-partition-ubuntu-lv:SourceType:lvm_partition -> (DepId:lvm-volgroup-ubuntu-vg DepType:lvm_volgroup) in SourceDeps:{'lvm_volgroup'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: lvm-volgroup-ubuntu-vg:SourceType:lvm_volgroup -> (DepId:partition-sdb3 DepType:partition) in SourceDeps:{'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: partition-sdb3:SourceType:partition -> (DepId:disk-sdb DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: format-raid-md127:SourceType:format -> (DepId:raid-md127 DepType:raid) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: raid-md127:SourceType:raid -> (DepId:disk-nvme0n1 DepType:disk) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: raid-md127:SourceType:raid -> (DepId:disk-nvme1n1 DepType:disk) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: lvm-volgroup-ubuntu-vg:SourceType:lvm_volgroup -> (DepId:partition-sdb3 DepType:partition) in SourceDeps:{'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: partition-sdb3:SourceType:partition -> (DepId:disk-sdb DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: lvm-partition-ubuntu-lv:SourceType:lvm_partition -> (DepId:lvm-volgroup-ubuntu-vg DepType:lvm_volgroup) in SourceDeps:{'lvm_volgroup'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: lvm-volgroup-ubuntu-vg:SourceType:lvm_volgroup -> (DepId:partition-sdb3 DepType:partition) in SourceDeps:{'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: partition-sdb3:SourceType:partition -> (DepId:disk-sdb DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: raid-md127:SourceType:raid -> (DepId:disk-nvme0n1 DepType:disk) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: raid-md127:SourceType:raid -> (DepId:disk-nvme1n1 DepType:disk) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: mount-partition-sdc1:SourceType:mount -> (DepId:format-partition-sdc1 DepType:format) in SourceDeps:{'format'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: format-partition-sdc1:SourceType:format -> (DepId:partition-sdc1 DepType:partition) in SourceDeps:{'lvm_partition', 'partition', 'dm_crypt', 'disk', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:239 Validate: partition-sdc1:SourceType:partition -> (DepId:disk-sdc DepType:disk) in SourceDeps:{'disk', 'partition', 'raid', 'bcache'} ? result=True
+2021-05-07 22:43:15,790 curtin:1334 Merging storage config dependencies
+2021-05-07 22:43:15,797 curtin:1341 Merged storage config:
+storage:
+    config:
+    -   id: disk-nvme0n1
+        path: /dev/nvme0n1
+        serial: INTEL SSDPE2KE016T8_PHLN026001YK1P6AGN
+        type: disk
+        wwn: eui.01000000010000005cd2e4b762645251
+    -   id: disk-nvme1n1
+        path: /dev/nvme1n1
+        serial: INTEL SSDPE2KE016T8_PHLN035300CV1P6AGN
+        type: disk
+        wwn: eui.01000000010000005cd2e45c17005351
+    -   id: disk-sda
+        path: /dev/sda
+        ptable: gpt
+        serial: SanDisk_SDSSDP128G_152705403409
+        type: disk
+        wwn: '0x5001b44e99888611'
+    -   id: disk-sdb
+        path: /dev/sdb
+        ptable: gpt
+        serial: SanDisk_SSD_PLUS_120GB_202401A009EE
+        type: disk
+        wwn: '0x5001b448b5d39eea'
+    -   id: disk-sdc
+        path: /dev/sdc
+        ptable: gpt
+        serial: USB_Flash_Disk-0:0
+        type: disk
+    -   id: disk-sdd
+        path: /dev/sdd
+        serial: WD_My_Book_25ED_35504A5547445A46-0:0
+        type: disk
+    -   id: disk-sde
+        path: /dev/sde
+        ptable: gpt
+        serial: WD_My_Book_25ED_35504A56414B3546-0:0
+        type: disk
+    -   id: disk-sdf
+        path: /dev/sdf
+        ptable: gpt
+        serial: WD_My_Book_25ED_35504A56324C3546-0:0
+        type: disk
+    -   fstype: iso9660
+        id: format-disk-sdc
+        type: format
+        volume: disk-sdc
+    -   fstype: ext4
+        id: format-disk-sdd
+        type: format
+        uuid: 27d0cc6a-4249-45bf-88f0-bdc3a59dc018
+        volume: disk-sdd
+    -   device: disk-sdf
+        id: partition-sdf1
+        number: 1
+        offset: 1048576
+        size: 12000136527872
+        type: partition
+    -   device: disk-sde
+        id: partition-sde1
+        number: 1
+        offset: 1048576
+        size: 12000136527872
+        type: partition
+    -   fstype: ext4
+        id: format-partition-sde1
+        type: format
+        uuid: c3ca046a-070e-42c9-8b4d-f3bb02897062
+        volume: partition-sde1
+    -   fstype: ext4
+        id: format-partition-sdf1
+        type: format
+        uuid: b72d9760-b096-49e1-8b81-e435a5dccd37
+        volume: partition-sdf1
+    -   device: disk-sda
+        flag: boot
+        id: partition-sda1
+        number: 1
+        offset: 1048576
+        size: 536870912
+        type: partition
+    -   device: disk-sda
+        flag: linux
+        id: partition-sda2
+        number: 2
+        offset: 537919488
+        size: 125495672832
+        type: partition
+    -   devices:
+        - disk-nvme0n1
+        - disk-nvme1n1
+        id: raid-md127
+        name: md127
+        raidlevel: raid0
+        spare_devices: []
+        type: raid
+    -   fstype: vfat
+        id: format-partition-sda1
+        type: format
+        volume: partition-sda1
+    -   fstype: ext4
+        id: format-partition-sda2
+        type: format
+        uuid: efdd4a43-a498-43ff-895e-98e1e991ec74
+        volume: partition-sda2
+    -   fstype: xfs
+        id: format-raid-md127
+        type: format
+        uuid: 83149f5b-eaed-41fd-9d47-77a594a099c0
+        volume: raid-md127
+    -   device: disk-sdb
+        flag: bios_grub
+        id: partition-sdb1
+        number: 1
+        offset: 1048576
+        size: 1048576
+        type: partition
+    -   device: disk-sdb
+        flag: linux
+        id: partition-sdb2
+        number: 2
+        offset: 2097152
+        size: 1073741824
+        type: partition
+    -   device: disk-sdb
+        flag: linux
+        id: partition-sdb3
+        number: 3
+        offset: 1075838976
+        size: 118964092928
+        type: partition
+    -   fstype: ext4
+        id: format-partition-sdb2
+        type: format
+        uuid: 371c5dbc-4076-4ac2-a3f4-ca5470fe3e16
+        volume: partition-sdb2
+    -   devices:
+        - partition-sdb3
+        id: lvm-volgroup-ubuntu-vg
+        name: ubuntu-vg
+        type: lvm_volgroup
+    -   device: disk-sdc
+        id: partition-sdc1
+        number: 1
+        offset: 32768
+        size: 1168730112
+        type: partition
+    -   device: disk-sdc
+        flag: boot
+        id: partition-sdc2
+        number: 2
+        offset: 1168762880
+        size: 5140480
+        type: partition
+    -   device: disk-sdc
+        id: partition-sdc3
+        number: 3
+        offset: 1173903360
+        size: 307200
+        type: partition
+    -   device: disk-sdc
+        flag: linux
+        id: partition-sdc4
+        number: 4
+        offset: 1174405120
+        size: 31037817344
+        type: partition
+    -   fstype: iso9660
+        id: format-partition-sdc1
+        type: format
+        volume: partition-sdc1
+    -   fstype: vfat
+        id: format-partition-sdc2
+        type: format
+        volume: partition-sdc2
+    -   fstype: ext4
+        id: format-partition-sdc4
+        type: format
+        uuid: 4a462e31-60e5-4d65-970e-dcefdb8aaabb
+        volume: partition-sdc4
+    -   id: lvm-partition-ubuntu-lv
+        name: ubuntu-lv
+        size: 59483619328B
+        type: lvm_partition
+        volgroup: lvm-volgroup-ubuntu-vg
+    -   fstype: ext4
+        id: format-lvm-partition-ubuntu-lv
+        type: format
+        uuid: 94cc3911-313b-4d83-83cb-956353b8ee4c
+        volume: lvm-partition-ubuntu-lv
+    -   device: format-partition-sdc1
+        id: mount-partition-sdc1
+        path: /cdrom
+        type: mount
+    version: 1
+
